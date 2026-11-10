@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- The token in the address is the key to this page: never send it on. -->
+    <meta name="referrer" content="no-referrer" />
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="color-scheme" content="light dark" />
+    <title>Shared group — OnTheTab</title>
+    <meta name="description" content="A read-only look at a group on OnTheTab." />
+    <link rel="icon" href="assets/favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="g.css" />
+  </head>
+  <body class="g">
+    <header class="g-head">
+      <a class="g-brand" href="./">OnTheTab</a>
+      <a class="g-pill" data-app-link href="./#waitlist">Get the app</a>
+    </header>
+
+    <main class="g-main" id="main" aria-live="polite" data-root>
+      <p class="g-loading">Loading the group…</p>
+    </main>
+
+    <noscript>
+      <p class="g-main g-loading">Turn on JavaScript to see this group.</p>
+    </noscript>
+
+    <script src="config.js"></script>
+    <script src="g.js"></script>
+  </body>
+</html>
